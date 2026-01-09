@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>INFERNOSHOPATA</title>
+
+<style>
+/* Сброс */
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+/* Фон страницы */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+
+    background-image: url("bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 500px 500px; /* строго 500x500 */
+}
+
+/* Кнопка */
+.telegram-button {
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    padding: 16px 26px;
+    background: #0088cc;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 14px;
+    transition: transform 0.2s ease, background 0.2s ease;
+}
+
+.telegram-button:hover {
+    background: #006699;
+    transform: scale(1.05);
+}
+
+/* Иконка */
+.telegram-icon {
+    width: 26px;
+    height: 26px;
+    object-fit: contain;
+    flex-shrink: 0;
+}
+</style>
+</head>
+
+<body>
+
+<a class="telegram-button"
+   href="https://t.me/inferno_shopata"
+   target="_blank"
+   rel="noopener">
+    <img src="telegram.svg" alt="Telegram" class="telegram-icon">
+    ЖМИ СЮДА
+</a>
+
+</body>
+</html>
